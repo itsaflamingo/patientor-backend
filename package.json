@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
     "dev": "ts-node-dev index.ts",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "node build/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +23,7 @@
     "typescript-eslint": "^8.33.1"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0"
   }
 }
